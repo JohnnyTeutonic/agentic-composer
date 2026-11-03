@@ -167,3 +167,21 @@ guitars each gained a detuned double (9 to 16 cents, 5 to 6 ms late) and a slow 
 gained a quiet octave-up layer, and an organ-like body plays the hook's notes under it; the
 original guitars came down 3 dB, so the hook group is thicker at about the same level. The pads
 and drone came up 3.6 to 3.9 dB. Gemini scored v7 7/10 but still hears the lead as slightly thin.
+
+Jonathan rated C v7 7/10, with three other listeners weighing in: catchy, but the recurring riff
+is the weak point, the wrong instrument with too little texture. He chose a house piano and asked
+for three variations. Each is built on v7 with the beat, swing, bass, form, tempo and pads
+unchanged; the score diff confirms that only the hook guitars and the wall fuzz differ.
+
+- v8 keeps the riff: v7's notes and rhythm as sampled piano chord stabs (Salamander Grand, CC-BY),
+  the slide turned into a grace note. Jonathan heard it as superior to v7 but the hook as still
+  hollow. Measurement agrees: the 1-4 kHz share fell from 20.3% to 5.2% and the low mids rose to
+  31.9%, because the piano's body sits low and its octave-up layer about 14 dB down.
+- v9 keeps the rhythm with a new shape: a high right-hand call with an octave drop, answered by a
+  left-hand chord figure. Slightly brighter (mid 8.1%), but the listening model heard the piano's
+  low octave stack as the bass changing, a sign that it masks the bass.
+- v10 is a new off-beat house vamp over the E E C D cycle, voiced high and bright with no octave
+  below. The hollowness is mostly gone: mid 14.0%, low mids back to 21.8%. Presence (4-10 kHz)
+  is still 2.5% against v7's 4.3%.
+
+All three take 5.0 to 5.4 dB of limiting, against v7's 4.5.
