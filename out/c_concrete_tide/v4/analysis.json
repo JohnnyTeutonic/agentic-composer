@@ -1,0 +1,67 @@
+{
+ "duration_s": 141.36,
+ "audible_s": 141.36,
+ "sample_peak_dbfs": -1.51,
+ "clipped_samples": 0,
+ "crest_db": 15.4,
+ "lufs_internal": -14.06,
+ "ffmpeg": {
+  "I_lufs": -13.9,
+  "LRA_lu": 6.7,
+  "true_peak_dbtp": -1.5
+ },
+ "short_term_lufs_p10_p95": [
+  -19.4,
+  -12.6
+ ],
+ "band_share_pct": {
+  "sub": 4.7,
+  "bass": 46.6,
+  "low_mid": 23.7,
+  "mid": 23.0,
+  "presence": 1.8,
+  "air": 0.1
+ },
+ "spectral_centroid_hz": 744.0,
+ "stereo_corr": 0.825,
+ "stereo_corr_below_150": 0.968,
+ "side_to_mid_db": -10.2,
+ "tempo_est_bpm": 175.2,
+ "pulse_clarity": 7.57,
+ "onset_grid": [
+  0.106,
+  0.023,
+  0.037,
+  0.097,
+  0.025,
+  0.087,
+  0.05,
+  0.048,
+  0.172,
+  0.028,
+  0.065,
+  0.054,
+  0.03,
+  0.095,
+  0.034,
+  0.048
+ ],
+ "offbeat_onset_share": 0.667,
+ "selfsim_adjacent_mean": 0.551,
+ "literal_repeat_share": 0.009,
+ "section_contrast": 0.987,
+ "top_pitch_classes": [
+  "E",
+  "A",
+  "D",
+  "C",
+  "Bb"
+ ],
+ "render": {
+  "master_gain_db": 9.45,
+  "limiter_max_gr_db": 4.09,
+  "lufs_internal": -14.06,
+  "seconds": 47.3
+ },
+ "revision_notes": "The fuzz stabs step back, as they were the harsh, dry, staccato synth in dense 3. The 1.6 kHz lift is replaced by a 4 dB dip at 2.8 kHz and a 4.5 kHz low-pass. The fuzz gain falls from 10 to 6, its tone from 4.2 to 2.8 kHz and its level by 4 dB, and the stabs are softer. They now sit in the plate and the echo instead of being bone dry. The climax is thinned by subtraction: the choir does not return after the bar-37 stop, so the climbing bass, the lead, the walking fuzz and the ring-modulated pipe carry bars 38 to 41 alone. A single high choir chord on A and E flat enters at bar 40, two octaves up and above the lead. The climax toms replace the wood and shaker rather than stacking on them. The wood blocks now enter with the kick at bar 4, so the first groove is not a bare kit. The shaker runs 4 in 11 across the bar line, so it drifts against the kick and the wood. The dropped snare falls 16 semitones over a longer decay, so the drop is heard, and the pipe's click is softer. Transitions are composed rather than cut: a reversed tide swell leads into dense 1, and a reversed E flat swell with a crash and a 40-cent tape sag leads into dense 2. Dense 1 and dense 2 each end on a plate hit that rings out through the echo. The bass's low shelf drops from 1.5 to 0.5 dB and the kick by 1 dB, to bring the limiter back towards 3 dB (M2). The lead gets a 3 dB cut at 400 Hz. The tide and the lead go through a light tape stage with gentle wow, so the sustained voices drift and warm up rather than sounding sterile."
+}

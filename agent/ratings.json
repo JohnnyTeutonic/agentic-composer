@@ -1,0 +1,36 @@
+{
+ "a_rivet_logic": {
+  "3": {
+   "score": "fire",
+   "note": "Jonathan, 3 Nov 2026, after listening: \"this TRACK IS FIRE\". Heard render frozen in out/a_rivet_logic/v3_heard/. Keep what makes it work: the hook interlocking in the bass gaps, per-section kick maps, the bridge valley, the all-in final.",
+   "rater": "Jonathan"
+  }
+ },
+ "c_concrete_tide": {
+  "4": {
+   "score": "5",
+   "note": "this is a very basic track with a simple melody, no lushness, and no real hook or groove. a real lack of textures, dynamism. A track that has a hooky guitar riff, a rhythmic bass with lush sonic textures is what we're aiming for. I'd also consider some kind of Trent Reznor influence as well",
+   "rater": "Jonathan"
+  },
+  "5": {
+   "score": "4",
+   "note": "agreed with Gemini. This track is trash. You need to abandon and start from scratch. very generic, add more bass, and choose a better drum beat (from a guest rater)",
+   "rater": "a guest rater, with Jonathan agreeing"
+  },
+  "6": {
+   "score": "6.5",
+   "note": "this has the right rhythm and beat..it oozes sex and is actually hooky. at the moment, the leading melody is too thin in terms of texture. the piece has excellent potential. this feels like it could be a sleeper dance hit. it's swinging. excellent work | Second listen (Jonathan): the track just needs more richness in texture. The background synth is excellent but could be a bit louder. He would genuinely put this on his Spotify: it is basically a house tune circa 1992, which is his vibe (hence sleeper: it grows on you). The foregrounded melody needs more texture.",
+   "rater": "Jonathan"
+  },
+  "7": {
+   "score": "7",
+   "rater": "Jonathan, with three other listeners weighing in",
+   "note": "Superior to v6, definitely (+0.5). But the lead melody is still mediocre: the recurring riff is the hook and it is the biggest issue. It is the wrong instrument / not enough texture. Three other listeners agree the track is catchy, and asked whether we can do sampling too."
+  },
+  "8": {
+   "score": "superior to v7 (no number yet)",
+   "rater": "Jonathan",
+   "note": "Variation 1 of 3 (same riff as house piano chord stabs). Superior to v7: the hook has more texture. But the hook still feels a bit hollow. A genuinely catchy song; we are certainly getting there. Measured (Claude Opus 5.5, 3 Nov 2026): removing the guitars emptied the 1-4 kHz band, from 20.3% of the energy in v7 to 5.2% in v8, with presence (4-10 kHz) down from 4.3% to 1.9%, while 250 Hz-1 kHz rose from 20.1% to 31.9%. The piano lives in the low mids, and the octave-up piano layers sit about 14 dB down. The likely cause of the hollowness is a missing upper-mid bite: a brighter top end on the piano (more 2-4 kHz, harder layers, a louder octave-up layer) rather than more low end."
+  }
+ }
+}

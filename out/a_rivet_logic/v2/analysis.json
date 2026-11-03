@@ -1,0 +1,67 @@
+{
+ "duration_s": 147.14,
+ "audible_s": 147.14,
+ "sample_peak_dbfs": -1.5,
+ "clipped_samples": 0,
+ "crest_db": 15.12,
+ "lufs_internal": -14.72,
+ "ffmpeg": {
+  "I_lufs": -14.6,
+  "LRA_lu": 2.2,
+  "true_peak_dbtp": -0.3
+ },
+ "short_term_lufs_p10_p95": [
+  -15.9,
+  -13.7
+ ],
+ "band_share_pct": {
+  "sub": 16.6,
+  "bass": 61.6,
+  "low_mid": 11.3,
+  "mid": 6.9,
+  "presence": 2.9,
+  "air": 0.6
+ },
+ "spectral_centroid_hz": 540.0,
+ "stereo_corr": 0.963,
+ "stereo_corr_below_150": 1.0,
+ "side_to_mid_db": -17.3,
+ "tempo_est_bpm": 112.3,
+ "pulse_clarity": 5.77,
+ "onset_grid": [
+  0.068,
+  0.02,
+  0.051,
+  0.052,
+  0.149,
+  0.036,
+  0.065,
+  0.053,
+  0.042,
+  0.026,
+  0.071,
+  0.033,
+  0.163,
+  0.043,
+  0.072,
+  0.057
+ ],
+ "offbeat_onset_share": 0.577,
+ "selfsim_adjacent_mean": 0.494,
+ "literal_repeat_share": 0.031,
+ "section_contrast": 1.035,
+ "top_pitch_classes": [
+  "D",
+  "A",
+  "C",
+  "E",
+  "Bb"
+ ],
+ "render": {
+  "master_gain_db": 9.12,
+  "limiter_max_gr_db": 4.92,
+  "lufs_internal": -14.72,
+  "seconds": 102.5
+ },
+ "revision_notes": "Mix rebalanced toward the mids (bass -2.5 dB and less sub, hook +3.5 dB and brighter, guitar +3.5 dB, hats on their own panned track +4 dB, presence shelf). Lows made truly mono. Bass cell mutates every fourth bar from the hook on (R3). The hook is foreshadowed, dark, in the four bars before it arrives. Section-end fills. The lift's melody returns over E in the final section."
+}

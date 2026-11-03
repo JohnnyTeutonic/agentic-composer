@@ -1,0 +1,67 @@
+{
+ "duration_s": 141.36,
+ "audible_s": 141.36,
+ "sample_peak_dbfs": -1.51,
+ "clipped_samples": 0,
+ "crest_db": 15.27,
+ "lufs_internal": -14.05,
+ "ffmpeg": {
+  "I_lufs": -13.9,
+  "LRA_lu": 6.6,
+  "true_peak_dbtp": -1.5
+ },
+ "short_term_lufs_p10_p95": [
+  -19.0,
+  -12.2
+ ],
+ "band_share_pct": {
+  "sub": 5.2,
+  "bass": 47.3,
+  "low_mid": 24.9,
+  "mid": 21.2,
+  "presence": 1.3,
+  "air": 0.1
+ },
+ "spectral_centroid_hz": 679.0,
+ "stereo_corr": 0.791,
+ "stereo_corr_below_150": 0.969,
+ "side_to_mid_db": -9.3,
+ "tempo_est_bpm": 175.2,
+ "pulse_clarity": 7.28,
+ "onset_grid": [
+  0.107,
+  0.024,
+  0.035,
+  0.095,
+  0.025,
+  0.086,
+  0.05,
+  0.05,
+  0.177,
+  0.025,
+  0.069,
+  0.052,
+  0.03,
+  0.091,
+  0.036,
+  0.046
+ ],
+ "offbeat_onset_share": 0.66,
+ "selfsim_adjacent_mean": 0.549,
+ "literal_repeat_share": 0.007,
+ "section_contrast": 0.999,
+ "top_pitch_classes": [
+  "E",
+  "A",
+  "D",
+  "C",
+  "Bb"
+ ],
+ "render": {
+  "master_gain_db": 9.18,
+  "limiter_max_gr_db": 4.23,
+  "lufs_internal": -14.05,
+  "seconds": 115.4
+ },
+ "revision_notes": "The bass riffs are re-placed so that only the downbeat and the snare beat fall on quarter beats; the rest sit on the 'e' and the 'a'. Dense 1 builds in two-bar stages: bass and kick, then the dropped snare, then wood and shaker, then the pipe. Dense 2 turns phrygian in the harmony as well as the bass: the pads carry a bII Eb chord over the D, the Eb in the answer bar is long and loud, the answer drifts by one nudge or thinning every two bars, the lead lands on Eb and ends on the E against it, and the dropped snare is sample-held. Dense 3 builds in three four-bar stages, with E and Eb trading every four bars and then every two; the fuzz enters on one stab, then two, then the full pattern walking a sixteenth per bar, never on the climax downbeat. A one-bar stop at bar 37 leaves only the plate and the echo tails, and the climax re-enters on bar 38 with a climbing bass answer, toms every bar and a ring-modulated pipe. The tide's reversed swell sags 70 cents into the dense 3 downbeat. The pipe now runs 3 in 7 across the bar line and walks over the section's pitch set. The coda's last two chords add F sharp, the piece's only major third. Each dense section has its own kick map. Fuzz an octave higher with a 220 Hz high-pass, pads cut at 350 Hz, a dry closed hat in dense 2 and 3, brighter snare noise, soft clips on the kick, kit and bass, a deeper duck of the bass under the kick, and a lower master compressor threshold, so the limiter stays under 3 dB on the re-entry downbeats."
+}

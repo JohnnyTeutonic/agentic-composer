@@ -1,0 +1,10 @@
+# Rendering and analysis (also needs ffmpeg on PATH for loudness measurement)
+numpy>=2.3
+scipy>=1.16
+matplotlib>=3.10
+# The music agent
+anthropic>=0.115
+google-genai>=2.10
+langgraph>=1.2
+langgraph-checkpoint-sqlite>=3.1
+langfuse>=5.1

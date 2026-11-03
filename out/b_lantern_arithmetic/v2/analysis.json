@@ -1,0 +1,48 @@
+{
+ "duration_s": 156.0,
+ "audible_s": 154.88,
+ "sample_peak_dbfs": -3.35,
+ "clipped_samples": 0,
+ "crest_db": 15.29,
+ "lufs_internal": -17.0,
+ "ffmpeg": {
+  "I_lufs": -16.9,
+  "LRA_lu": 3.9,
+  "true_peak_dbtp": -3.3
+ },
+ "short_term_lufs_p10_p95": [
+  -19.6,
+  -15.3
+ ],
+ "band_share_pct": {
+  "sub": 9.5,
+  "bass": 69.5,
+  "low_mid": 18.4,
+  "mid": 2.5,
+  "presence": 0.1,
+  "air": 0.0
+ },
+ "spectral_centroid_hz": 202.0,
+ "stereo_corr": 0.708,
+ "stereo_corr_below_150": 0.943,
+ "side_to_mid_db": -7.7,
+ "tempo_est_bpm": 172.3,
+ "pulse_clarity": 5.25,
+ "selfsim_adjacent_mean": 0.392,
+ "literal_repeat_share": 0.0,
+ "section_contrast": 1.1,
+ "top_pitch_classes": [
+  "Ab",
+  "C",
+  "C#",
+  "F",
+  "A"
+ ],
+ "render": {
+  "master_gain_db": 10.42,
+  "limiter_max_gr_db": -0.0,
+  "lufs_internal": -17.0,
+  "seconds": 91.5
+ },
+ "revision_notes": "Drone down 4 dB and darker; glass, bell and events up 2.5-3 dB, glass brighter; presence shelf; lows truly mono. Form arc: the swell loop rests through the Bb section, extra high events thicken the Ab section, and at home the loops leave one at a time (ebow, bell, swell) until glass and drone remain."
+}

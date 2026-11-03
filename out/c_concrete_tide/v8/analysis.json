@@ -1,0 +1,405 @@
+{
+ "duration_s": 133.91,
+ "audible_s": 130.94,
+ "sample_peak_dbfs": -1.51,
+ "clipped_samples": 0,
+ "crest_db": 15.7,
+ "lufs_internal": -14.59,
+ "ffmpeg": {
+  "I_lufs": -14.5,
+  "LRA_lu": 12.5,
+  "true_peak_dbtp": -1.4
+ },
+ "short_term_lufs_p10_p95": [
+  -25.9,
+  -13.2
+ ],
+ "band_share_pct": {
+  "sub": 17.1,
+  "bass": 43.3,
+  "low_mid": 31.9,
+  "mid": 5.2,
+  "presence": 1.9,
+  "air": 0.5
+ },
+ "spectral_centroid_hz": 510.0,
+ "stereo_corr": 0.875,
+ "stereo_corr_below_150": 0.996,
+ "side_to_mid_db": -11.8,
+ "tempo_est_bpm": 175.2,
+ "pulse_clarity": 8.66,
+ "onset_grid": [
+  0.074,
+  0.034,
+  0.077,
+  0.041,
+  0.119,
+  0.03,
+  0.067,
+  0.043,
+  0.083,
+  0.044,
+  0.068,
+  0.056,
+  0.113,
+  0.049,
+  0.062,
+  0.04
+ ],
+ "offbeat_onset_share": 0.61,
+ "selfsim_adjacent_mean": 0.527,
+ "literal_repeat_share": 0.111,
+ "section_contrast": 0.938,
+ "top_pitch_classes": [
+  "E",
+  "B",
+  "D",
+  "A",
+  "F#"
+ ],
+ "render": {
+  "master_gain_db": 3.65,
+  "limiter_max_gr_db": 5.39,
+  "lufs_internal": -14.59,
+  "seconds": 86.6
+ },
+ "stem_levels": {
+  "bass": {
+   "active_s": 113.0,
+   "first_s": 0.0,
+   "rel_db": -3.5,
+   "low_db": -1.2,
+   "mid_db": -13.6
+  },
+  "piano": {
+   "active_s": 22.0,
+   "first_s": 11.0,
+   "rel_db": -4.1,
+   "low_db": -19.7,
+   "mid_db": -1.1
+  },
+  "piano_wall": {
+   "active_s": 33.0,
+   "first_s": 87.5,
+   "rel_db": -4.5,
+   "low_db": -15.0,
+   "mid_db": -2.2
+  },
+  "piano_b": {
+   "active_s": 22.0,
+   "first_s": 43.5,
+   "rel_db": -5.0,
+   "low_db": -17.6,
+   "mid_db": -2.0
+  },
+  "gtr_fb": {
+   "active_s": 6.5,
+   "first_s": 0.0,
+   "rel_db": -5.5,
+   "low_db": -64.1,
+   "mid_db": -0.2
+  },
+  "keys": {
+   "active_s": 10.5,
+   "first_s": 66.0,
+   "rel_db": -7.3,
+   "low_db": -56.1,
+   "mid_db": -3.1
+  },
+  "kick": {
+   "active_s": 75.0,
+   "first_s": 5.0,
+   "rel_db": -8.4,
+   "low_db": -4.3,
+   "mid_db": -21.1
+  },
+  "gtr_fb2": {
+   "active_s": 11.0,
+   "first_s": 109.0,
+   "rel_db": -9.3,
+   "low_db": -55.7,
+   "mid_db": -6.3
+  },
+  "gtr_rev": {
+   "active_s": 9.5,
+   "first_s": 8.0,
+   "rel_db": -10.6,
+   "low_db": -42.7,
+   "mid_db": -3.0
+  },
+  "toms": {
+   "active_s": 6.0,
+   "first_s": 64.0,
+   "rel_db": -11.0,
+   "low_db": -9.7,
+   "mid_db": -19.8
+  },
+  "snare": {
+   "active_s": 49.0,
+   "first_s": 11.5,
+   "rel_db": -11.9,
+   "low_db": -17.3,
+   "mid_db": -13.7
+  },
+  "piano_di": {
+   "active_s": 8.0,
+   "first_s": 123.0,
+   "rel_db": -11.9,
+   "low_db": -35.2,
+   "mid_db": -0.2
+  },
+  "pad_bridge": {
+   "active_s": 22.5,
+   "first_s": 65.0,
+   "rel_db": -12.1,
+   "low_db": -19.8,
+   "mid_db": -7.7
+  },
+  "rev_snare": {
+   "active_s": 2.0,
+   "first_s": 42.0,
+   "rel_db": -13.2,
+   "low_db": -28.0,
+   "mid_db": -8.8
+  },
+  "grit": {
+   "active_s": 55.5,
+   "first_s": 43.5,
+   "rel_db": -13.7,
+   "low_db": -19.4,
+   "mid_db": -12.9
+  },
+  "pad_wide": {
+   "active_s": 56.5,
+   "first_s": 43.5,
+   "rel_db": -13.7,
+   "low_db": -18.1,
+   "mid_db": -13.0
+  },
+  "piano_echo": {
+   "active_s": 3.5,
+   "first_s": 33.0,
+   "rel_db": -14.5,
+   "low_db": -41.4,
+   "mid_db": -4.2
+  },
+  "heart": {
+   "active_s": 5.0,
+   "first_s": 32.5,
+   "rel_db": -14.7,
+   "low_db": -12.5,
+   "mid_db": -27.7
+  },
+  "piano_stop": {
+   "active_s": 4.0,
+   "first_s": 120.0,
+   "rel_db": -14.9,
+   "low_db": -23.1,
+   "mid_db": -4.3
+  },
+  "pad": {
+   "active_s": 35.5,
+   "first_s": 10.5,
+   "rel_db": -15.1,
+   "low_db": -26.3,
+   "mid_db": -12.0
+  },
+  "drone": {
+   "active_s": 83.0,
+   "first_s": 10.5,
+   "rel_db": -15.7,
+   "low_db": -15.7,
+   "mid_db": -16.3
+  },
+  "noise_hit": {
+   "active_s": 5.0,
+   "first_s": 87.0,
+   "rel_db": -16.2,
+   "low_db": -64.0,
+   "mid_db": -17.1
+  },
+  "snare_noise": {
+   "active_s": 38.0,
+   "first_s": 11.5,
+   "rel_db": -17.1,
+   "low_db": -63.5,
+   "mid_db": -17.2
+  },
+  "piano_oct_wall": {
+   "active_s": 33.0,
+   "first_s": 87.5,
+   "rel_db": -17.1,
+   "low_db": -39.4,
+   "mid_db": -13.9
+  },
+  "piano_oct_b": {
+   "active_s": 22.0,
+   "first_s": 43.5,
+   "rel_db": -17.5,
+   "low_db": -40.6,
+   "mid_db": -13.6
+  },
+  "kit_crush": {
+   "active_s": 33.0,
+   "first_s": 87.0,
+   "rel_db": -17.6,
+   "low_db": -15.0,
+   "mid_db": -22.0
+  },
+  "bed": {
+   "active_s": 90.5,
+   "first_s": 0.0,
+   "rel_db": -17.6,
+   "low_db": -50.6,
+   "mid_db": -16.6
+  },
+  "clap": {
+   "active_s": 15.5,
+   "first_s": 87.5,
+   "rel_db": -19.1,
+   "low_db": -47.7,
+   "mid_db": -16.5
+  },
+  "fuzz": {
+   "active_s": 35.5,
+   "first_s": 87.5,
+   "rel_db": -19.3,
+   "low_db": -70.4,
+   "mid_db": -15.9
+  },
+  "strings": {
+   "active_s": 33.0,
+   "first_s": 87.0,
+   "rel_db": -19.6,
+   "low_db": -70.2,
+   "mid_db": -16.3
+  },
+  "snare_sheet": {
+   "active_s": 49.5,
+   "first_s": 11.5,
+   "rel_db": -20.0,
+   "low_db": -34.5,
+   "mid_db": -21.2
+  },
+  "hat": {
+   "active_s": 93.0,
+   "first_s": 5.0,
+   "rel_db": -21.3,
+   "low_db": -79.9,
+   "mid_db": -47.5
+  },
+  "anvil": {
+   "active_s": 4.5,
+   "first_s": 44.5,
+   "rel_db": -21.3,
+   "low_db": -141.7,
+   "mid_db": -22.9
+  },
+  "bus_hall": {
+   "active_s": 124.0,
+   "first_s": 0.0,
+   "rel_db": -22.0,
+   "low_db": -31.6,
+   "mid_db": -19.1
+  },
+  "tick": {
+   "active_s": 33.0,
+   "first_s": 87.0,
+   "rel_db": -23.9,
+   "low_db": -148.9,
+   "mid_db": -33.3
+  },
+  "bus_room": {
+   "active_s": 86.5,
+   "first_s": 11.0,
+   "rel_db": -26.2,
+   "low_db": -37.9,
+   "mid_db": -23.3
+  },
+  "bus_echo": {
+   "active_s": 11.5,
+   "first_s": 33.5,
+   "rel_db": -37.2,
+   "low_db": -63.6,
+   "mid_db": -28.2
+  },
+  "gtr_c": {
+   "active_s": 133.5,
+   "first_s": 0.0,
+   "rel_db": -179.5,
+   "low_db": -175.3,
+   "mid_db": -174.8
+  },
+  "gtr_echo": {
+   "active_s": 133.5,
+   "first_s": 0.0,
+   "rel_db": -179.5,
+   "low_db": -175.3,
+   "mid_db": -174.8
+  },
+  "gtr_l": {
+   "active_s": 133.5,
+   "first_s": 0.0,
+   "rel_db": -179.5,
+   "low_db": -175.3,
+   "mid_db": -174.8
+  },
+  "gtr_r": {
+   "active_s": 133.5,
+   "first_s": 0.0,
+   "rel_db": -179.5,
+   "low_db": -175.3,
+   "mid_db": -174.8
+  },
+  "gtr_4th": {
+   "active_s": 133.5,
+   "first_s": 0.0,
+   "rel_db": -179.5,
+   "low_db": -175.3,
+   "mid_db": -174.8
+  },
+  "gtr_di": {
+   "active_s": 133.5,
+   "first_s": 0.0,
+   "rel_db": -179.5,
+   "low_db": -175.3,
+   "mid_db": -174.8
+  },
+  "gtr_c_uni": {
+   "active_s": 133.5,
+   "first_s": 0.0,
+   "rel_db": -179.5,
+   "low_db": -175.3,
+   "mid_db": -174.8
+  },
+  "gtr_l_uni": {
+   "active_s": 133.5,
+   "first_s": 0.0,
+   "rel_db": -179.5,
+   "low_db": -175.3,
+   "mid_db": -174.8
+  },
+  "gtr_r_uni": {
+   "active_s": 133.5,
+   "first_s": 0.0,
+   "rel_db": -179.5,
+   "low_db": -175.3,
+   "mid_db": -174.8
+  },
+  "gtr_oct": {
+   "active_s": 133.5,
+   "first_s": 0.0,
+   "rel_db": -179.5,
+   "low_db": -175.3,
+   "mid_db": -174.8
+  },
+  "hook_body": {
+   "active_s": 133.5,
+   "first_s": 0.0,
+   "rel_db": -179.5,
+   "low_db": -175.3,
+   "mid_db": -174.8
+  }
+ },
+ "revision_notes": "Variation 1 of 3 of the hook, built on v7 alone (the next two variations also start from v7). Jonathan rated v7 7/10. He heard it as a house tune from around 1992, but said the riff was the wrong instrument and lacked texture. He chose a sampled house piano. In this variation the riff keeps every v7 onset, pitch, length, gate and velocity, and is played as piano chord stabs. Each riff note is on top of a close chord built from the pad's own pitches for that bar: the two nearest chord tones below it, within an octave, with no minor seconds between neighbouring voices. These inner voices are played a little softer, so the melody leads. Over E this gives E minor ninth and eleventh shapes that still withhold the third, as the pads do. On the quarter-beat steps the left hand adds E3, C3 or D3, which never meets a bass note, so the lock with the kick is untouched. A piano cannot slide, so the D-to-E slide becomes a grace note. The chord is struck with D on top, and 50 ms later an E replaces the D while the inner voices hold. The piano follows the house recipe: a high-pass at 120 Hz, a dip at 300 Hz, a 5 dB shelf above 4 kHz, firm compression, a short release so the stabs clip, a light chorus and a little room. Section A has chords and the left hand only. Section B and the wall add the top note an octave up, 8 dB under and widened, which is the classic house octave stack. In the last four bars of the wall the chords gain a fourth voice, where v7 added the fourths guitar. The space's lone slide becomes one piano grace move into the echo. The bar-45 stop is now a single piano stab: E3, B3, E4 and G4 over an E2, ringing into the coda. The coda plays the riff as bare single notes, dry, into the tape stop, so the piece still ends on its hook. All hook guitars and the organ body are gone. Their tracks stay in the list, empty, and their notes are still generated and then dropped, so no timing or noise stream moves. The wall fuzz stays as the one guitar, 6 dB down, as grit under the piano. The drums, swing, bass, form, tempo, pads and drone are exactly as in v7. Measured levels: the piano sits at -1.1 dB in the mid band against the mix in section A, at -1.7 dB in B and at -1.9 dB in the wall (stabs plus octave), and at -0.2 dB in the coda. The bass, kick, snare, pads and drone are within 0.1 dB of their v7 levels. The limiter's peak reduction is 5.4 dB, against 4.5 in v7. The piano carries less upper-mid energy than the distorted guitars did, so the master gain is 1.4 dB higher and the untouched drum transients reach the limiter harder. A brighter, thinner piano EQ was tried, but it raised the limiter and moved the untouched stems by 0.4 dB, so it was dropped."
+}

@@ -1,0 +1,67 @@
+{
+ "duration_s": 147.14,
+ "audible_s": 147.14,
+ "sample_peak_dbfs": -2.01,
+ "clipped_samples": 0,
+ "crest_db": 14.96,
+ "lufs_internal": -14.69,
+ "ffmpeg": {
+  "I_lufs": -14.6,
+  "LRA_lu": 2.9,
+  "true_peak_dbtp": -1.9
+ },
+ "short_term_lufs_p10_p95": [
+  -16.6,
+  -13.7
+ ],
+ "band_share_pct": {
+  "sub": 13.2,
+  "bass": 55.7,
+  "low_mid": 15.3,
+  "mid": 11.6,
+  "presence": 3.5,
+  "air": 0.7
+ },
+ "spectral_centroid_hz": 688.0,
+ "stereo_corr": 0.938,
+ "stereo_corr_below_150": 1.0,
+ "side_to_mid_db": -14.9,
+ "tempo_est_bpm": 112.3,
+ "pulse_clarity": 5.87,
+ "onset_grid": [
+  0.065,
+  0.02,
+  0.065,
+  0.047,
+  0.143,
+  0.047,
+  0.051,
+  0.049,
+  0.051,
+  0.032,
+  0.068,
+  0.034,
+  0.156,
+  0.044,
+  0.065,
+  0.062
+ ],
+ "offbeat_onset_share": 0.585,
+ "selfsim_adjacent_mean": 0.445,
+ "literal_repeat_share": 0.028,
+ "section_contrast": 1.032,
+ "top_pitch_classes": [
+  "D",
+  "A",
+  "E",
+  "C",
+  "B"
+ ],
+ "render": {
+  "master_gain_db": 9.67,
+  "limiter_max_gr_db": 6.52,
+  "lufs_internal": -14.69,
+  "seconds": 99.0
+ },
+ "revision_notes": "Written by the agentic loop's producer from a critic's reading of v2; the note itself was written afterwards by Claude Opus 5.5 from the code. The hook moves into the bass's gaps (steps 2, 5, 8/9, 15), a 3+3+3 pickup locked to the guitar's accents instead of doubling the bass, so the displacement walk can be heard. The third leaves the bass (F sharp on the strong off-beat). Each section has its own kick map; eighth hats in the groove, sixteenths from the hook. The bass filter opens across the first act. A quiet quartal upper structure appears before the organ. The displacement stabs go to a decimated track. A 5-in-13 tuned metal voice runs over the sixteenths. The hook and guitar sag in pitch into the 2/4 jolt and snap back. The lift gets the dropped snare on the backbeat and a darker bass that slides into its octave pops. The return is the major light (G sharp in the hook, B and F sharp in the guitar), and major and minor alternate by two-bar phrase in the final. The bridge is a valley: one held root per bar, the kick out for its last two bars and the bass for its last, so bar 55 lands as a return. The lead runs over the hook in bars 57-62, the one place everything plays, ring-modulated the second time. Kick and kit transients are soft-clipped, and the hook and guitar come up. The limiter still takes 6.5 dB, beyond the 3 dB rule; Jonathan heard this render and rated it highly, so the rule yields to his ear here."
+}

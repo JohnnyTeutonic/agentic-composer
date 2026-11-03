@@ -1,0 +1,67 @@
+{
+ "duration_s": 147.14,
+ "audible_s": 147.14,
+ "sample_peak_dbfs": -2.01,
+ "clipped_samples": 0,
+ "crest_db": 14.96,
+ "lufs_internal": -14.69,
+ "ffmpeg": {
+  "I_lufs": -14.6,
+  "LRA_lu": 2.9,
+  "true_peak_dbtp": -1.9
+ },
+ "short_term_lufs_p10_p95": [
+  -16.6,
+  -13.7
+ ],
+ "band_share_pct": {
+  "sub": 13.2,
+  "bass": 55.7,
+  "low_mid": 15.3,
+  "mid": 11.6,
+  "presence": 3.5,
+  "air": 0.7
+ },
+ "spectral_centroid_hz": 688.0,
+ "stereo_corr": 0.938,
+ "stereo_corr_below_150": 1.0,
+ "side_to_mid_db": -14.9,
+ "tempo_est_bpm": 112.3,
+ "pulse_clarity": 5.87,
+ "onset_grid": [
+  0.065,
+  0.02,
+  0.065,
+  0.047,
+  0.143,
+  0.047,
+  0.051,
+  0.049,
+  0.051,
+  0.032,
+  0.068,
+  0.034,
+  0.156,
+  0.044,
+  0.065,
+  0.062
+ ],
+ "offbeat_onset_share": 0.585,
+ "selfsim_adjacent_mean": 0.445,
+ "literal_repeat_share": 0.028,
+ "section_contrast": 1.032,
+ "top_pitch_classes": [
+  "D",
+  "A",
+  "E",
+  "C",
+  "B"
+ ],
+ "render": {
+  "master_gain_db": 9.67,
+  "limiter_max_gr_db": 6.52,
+  "lufs_internal": -14.69,
+  "seconds": 99.0
+ },
+ "revision_notes": "Draft note, replaced after the render."
+}

@@ -1,0 +1,10 @@
+# Rendered audio is reproducible from the code; keep it out of Git (about 40 MB per WAV).
+out/**/*.wav
+out/**/stems/
+__pycache__/
+.env
+agent/state/
+samples/**/*.wav
+out/*/preview/
+out/**/attempts/
+.ruff_cache/

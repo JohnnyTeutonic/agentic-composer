@@ -1,0 +1,67 @@
+{
+ "duration_s": 141.36,
+ "audible_s": 141.36,
+ "sample_peak_dbfs": -1.51,
+ "clipped_samples": 0,
+ "crest_db": 15.53,
+ "lufs_internal": -14.15,
+ "ffmpeg": {
+  "I_lufs": -14.0,
+  "LRA_lu": 8.4,
+  "true_peak_dbtp": -1.5
+ },
+ "short_term_lufs_p10_p95": [
+  -21.3,
+  -12.6
+ ],
+ "band_share_pct": {
+  "sub": 5.8,
+  "bass": 47.0,
+  "low_mid": 21.5,
+  "mid": 23.2,
+  "presence": 2.3,
+  "air": 0.2
+ },
+ "spectral_centroid_hz": 767.0,
+ "stereo_corr": 0.837,
+ "stereo_corr_below_150": 0.971,
+ "side_to_mid_db": -10.5,
+ "tempo_est_bpm": 175.2,
+ "pulse_clarity": 6.71,
+ "onset_grid": [
+  0.123,
+  0.018,
+  0.054,
+  0.108,
+  0.022,
+  0.06,
+  0.061,
+  0.053,
+  0.153,
+  0.031,
+  0.052,
+  0.069,
+  0.027,
+  0.069,
+  0.048,
+  0.053
+ ],
+ "offbeat_onset_share": 0.675,
+ "selfsim_adjacent_mean": 0.538,
+ "literal_repeat_share": 0.014,
+ "section_contrast": 0.998,
+ "top_pitch_classes": [
+  "E",
+  "A",
+  "D",
+  "C",
+  "Bb"
+ ],
+ "render": {
+  "master_gain_db": 9.35,
+  "limiter_max_gr_db": 5.06,
+  "lufs_internal": -14.15,
+  "seconds": 119.7
+ },
+ "revision_notes": "A larger rewrite around a guitar riff, after Jonathan heard v4 as basic, with no hook, groove or lushness. The piece now has a hook: a two-bar guitar riff, built in this file as a plucked string with a pick transient into an asymmetric amp clip and a band-limited cabinet, locked to the bass riff. Muted D power-chord chops open it, then A, C, D and F climb onto the contested second (E in dorian bars, E flat in phrygian bars); the answer bar falls to G and then rubs the second against the bass's octave pop. It is stated alone, mono and dry, in intro bars 2 and 3, played by a single guitar left of centre in dense 1, and double-tracked hard left and right in dense 2 and dense 3, the right copy 9 ms late, 7 cents sharp and with its own timing. In the space sections it becomes a clean, detuned, decaying keyboard through tape wow: a faint, echoed ghost in space 1, and close and dry in space 2. In dense 3 the fuzz doubles only the riff's tail, an octave up. The dense-2 lead is cut to its last two notes as an answer, and the space-2 and dense-3 lead lines are gone. The groove: swing rises to 55 per cent, the bass is clipped to a 60 per cent gate with accents on the downbeat and the 'a' sixteenths, and a fuzzed, band-limited copy of the bass sits about 10 dB under it so that it bites on small speakers while the sub stays clean. The dense-1 kick gains a hit on step 7 and the dense-2 kick a ghost on step 14. For lushness, a bed of three layers runs under the rhythm section: high breath noise, a detuned D and A drone on tape, and a bit-crushed copy of the pads. Each has its own slowly moving low-pass (periods of 13.7, 21.1 and 34.3 seconds), the bed changes from section to section, and it ducks under the kick with the pads. The tide pad moves more slowly and further, with a slower chorus. Space 2 is now intimate: the bed thins to the breath alone, and the keyboard riff and the choir are close and dry, with no hall. For dynamics, bar 36 strips to the bass and the riff alone, and bar 37 keeps only the plate, a reversed breath swell and one muted riff chop. Bar 38 then brings everything in at once as a wall that holds until bar 42: double guitars, the bass and its grit on the climbing answer, the full bed, the choir back an octave up, toms and wood, a noise burst on every downbeat in place of a crash, and a crushed parallel copy of the kit. The coda keeps the riff for its first two bars, so the piece ends on its hook. In the mix, the bass's 800 Hz lift falls to 1 dB, the grit is dipped at 1.8 kHz to leave room for the guitar's cabinet peak, the pads are cut by 2 dB at 2.5 kHz, the guitars get only a short room and a little echo, and the master compressor threshold returns to -18 dB."
+}

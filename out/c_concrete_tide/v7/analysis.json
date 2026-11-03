@@ -1,0 +1,349 @@
+{
+ "duration_s": 133.91,
+ "audible_s": 130.94,
+ "sample_peak_dbfs": -1.51,
+ "clipped_samples": 0,
+ "crest_db": 16.43,
+ "lufs_internal": -14.22,
+ "ffmpeg": {
+  "I_lufs": -14.1,
+  "LRA_lu": 14.0,
+  "true_peak_dbtp": -1.5
+ },
+ "short_term_lufs_p10_p95": [
+  -26.9,
+  -12.6
+ ],
+ "band_share_pct": {
+  "sub": 16.0,
+  "bass": 38.9,
+  "low_mid": 20.1,
+  "mid": 20.3,
+  "presence": 4.3,
+  "air": 0.5
+ },
+ "spectral_centroid_hz": 921.0,
+ "stereo_corr": 0.734,
+ "stereo_corr_below_150": 0.996,
+ "side_to_mid_db": -8.1,
+ "tempo_est_bpm": 175.2,
+ "pulse_clarity": 8.81,
+ "onset_grid": [
+  0.066,
+  0.03,
+  0.088,
+  0.035,
+  0.136,
+  0.025,
+  0.061,
+  0.037,
+  0.08,
+  0.06,
+  0.059,
+  0.065,
+  0.104,
+  0.065,
+  0.054,
+  0.035
+ ],
+ "offbeat_onset_share": 0.614,
+ "selfsim_adjacent_mean": 0.533,
+ "literal_repeat_share": 0.062,
+ "section_contrast": 0.929,
+ "top_pitch_classes": [
+  "E",
+  "B",
+  "F#",
+  "A",
+  "D"
+ ],
+ "render": {
+  "master_gain_db": 2.23,
+  "limiter_max_gr_db": 4.53,
+  "lufs_internal": -14.22,
+  "seconds": 169.6
+ },
+ "stem_levels": {
+  "bass": {
+   "active_s": 113.0,
+   "first_s": 0.0,
+   "rel_db": -3.6,
+   "low_db": -1.2,
+   "mid_db": -14.0
+  },
+  "gtr_fb": {
+   "active_s": 6.5,
+   "first_s": 0.0,
+   "rel_db": -5.3,
+   "low_db": -64.1,
+   "mid_db": 0.6
+  },
+  "gtr_c": {
+   "active_s": 22.0,
+   "first_s": 11.0,
+   "rel_db": -6.3,
+   "low_db": -44.6,
+   "mid_db": -3.3
+  },
+  "keys": {
+   "active_s": 10.5,
+   "first_s": 66.0,
+   "rel_db": -7.5,
+   "low_db": -56.2,
+   "mid_db": -3.2
+  },
+  "gtr_c_uni": {
+   "active_s": 22.0,
+   "first_s": 11.0,
+   "rel_db": -8.1,
+   "low_db": -46.5,
+   "mid_db": -5.3
+  },
+  "kick": {
+   "active_s": 75.0,
+   "first_s": 5.0,
+   "rel_db": -8.4,
+   "low_db": -4.3,
+   "mid_db": -21.4
+  },
+  "gtr_fb2": {
+   "active_s": 11.0,
+   "first_s": 109.0,
+   "rel_db": -9.4,
+   "low_db": -55.5,
+   "mid_db": -6.6
+  },
+  "gtr_r": {
+   "active_s": 57.0,
+   "first_s": 43.5,
+   "rel_db": -10.4,
+   "low_db": -44.2,
+   "mid_db": -7.5
+  },
+  "gtr_l": {
+   "active_s": 57.0,
+   "first_s": 43.5,
+   "rel_db": -10.5,
+   "low_db": -46.3,
+   "mid_db": -7.5
+  },
+  "gtr_rev": {
+   "active_s": 9.5,
+   "first_s": 8.0,
+   "rel_db": -10.6,
+   "low_db": -42.7,
+   "mid_db": -3.1
+  },
+  "gtr_di": {
+   "active_s": 8.0,
+   "first_s": 123.0,
+   "rel_db": -10.6,
+   "low_db": -43.5,
+   "mid_db": -0.1
+  },
+  "toms": {
+   "active_s": 6.0,
+   "first_s": 64.0,
+   "rel_db": -11.2,
+   "low_db": -9.6,
+   "mid_db": -20.5
+  },
+  "snare": {
+   "active_s": 49.0,
+   "first_s": 11.5,
+   "rel_db": -12.0,
+   "low_db": -17.2,
+   "mid_db": -14.2
+  },
+  "pad_bridge": {
+   "active_s": 22.5,
+   "first_s": 65.0,
+   "rel_db": -12.1,
+   "low_db": -19.8,
+   "mid_db": -7.8
+  },
+  "gtr_l_uni": {
+   "active_s": 54.5,
+   "first_s": 43.5,
+   "rel_db": -12.2,
+   "low_db": -50.1,
+   "mid_db": -9.4
+  },
+  "gtr_r_uni": {
+   "active_s": 54.5,
+   "first_s": 43.5,
+   "rel_db": -12.3,
+   "low_db": -50.2,
+   "mid_db": -9.6
+  },
+  "gtr_4th": {
+   "active_s": 11.0,
+   "first_s": 109.0,
+   "rel_db": -12.9,
+   "low_db": -41.4,
+   "mid_db": -10.8
+  },
+  "rev_snare": {
+   "active_s": 2.0,
+   "first_s": 42.0,
+   "rel_db": -13.2,
+   "low_db": -28.0,
+   "mid_db": -9.0
+  },
+  "fuzz": {
+   "active_s": 35.5,
+   "first_s": 87.5,
+   "rel_db": -13.2,
+   "low_db": -64.3,
+   "mid_db": -10.1
+  },
+  "gtr_echo": {
+   "active_s": 3.0,
+   "first_s": 33.0,
+   "rel_db": -13.5,
+   "low_db": -58.4,
+   "mid_db": -3.8
+  },
+  "grit": {
+   "active_s": 55.5,
+   "first_s": 43.5,
+   "rel_db": -13.7,
+   "low_db": -19.3,
+   "mid_db": -13.2
+  },
+  "pad_wide": {
+   "active_s": 56.5,
+   "first_s": 43.5,
+   "rel_db": -13.7,
+   "low_db": -18.0,
+   "mid_db": -13.2
+  },
+  "heart": {
+   "active_s": 5.0,
+   "first_s": 32.5,
+   "rel_db": -14.7,
+   "low_db": -12.5,
+   "mid_db": -28.0
+  },
+  "pad": {
+   "active_s": 35.5,
+   "first_s": 10.5,
+   "rel_db": -15.2,
+   "low_db": -26.3,
+   "mid_db": -12.6
+  },
+  "drone": {
+   "active_s": 83.0,
+   "first_s": 10.5,
+   "rel_db": -15.7,
+   "low_db": -15.6,
+   "mid_db": -16.7
+  },
+  "hook_body": {
+   "active_s": 81.5,
+   "first_s": 11.0,
+   "rel_db": -16.3,
+   "low_db": -43.0,
+   "mid_db": -14.1
+  },
+  "noise_hit": {
+   "active_s": 5.0,
+   "first_s": 87.0,
+   "rel_db": -16.4,
+   "low_db": -64.0,
+   "mid_db": -17.8
+  },
+  "snare_noise": {
+   "active_s": 38.0,
+   "first_s": 11.5,
+   "rel_db": -17.2,
+   "low_db": -63.4,
+   "mid_db": -17.7
+  },
+  "kit_crush": {
+   "active_s": 33.0,
+   "first_s": 87.0,
+   "rel_db": -17.5,
+   "low_db": -14.9,
+   "mid_db": -22.1
+  },
+  "bed": {
+   "active_s": 90.5,
+   "first_s": 0.0,
+   "rel_db": -17.6,
+   "low_db": -50.5,
+   "mid_db": -16.9
+  },
+  "clap": {
+   "active_s": 15.5,
+   "first_s": 87.5,
+   "rel_db": -19.1,
+   "low_db": -47.5,
+   "mid_db": -16.8
+  },
+  "gtr_oct": {
+   "active_s": 44.0,
+   "first_s": 11.0,
+   "rel_db": -19.2,
+   "low_db": -60.2,
+   "mid_db": -16.0
+  },
+  "strings": {
+   "active_s": 33.0,
+   "first_s": 87.0,
+   "rel_db": -19.5,
+   "low_db": -70.0,
+   "mid_db": -16.5
+  },
+  "snare_sheet": {
+   "active_s": 49.5,
+   "first_s": 11.5,
+   "rel_db": -20.0,
+   "low_db": -34.4,
+   "mid_db": -21.7
+  },
+  "anvil": {
+   "active_s": 4.5,
+   "first_s": 44.5,
+   "rel_db": -21.2,
+   "low_db": -141.5,
+   "mid_db": -23.1
+  },
+  "hat": {
+   "active_s": 93.0,
+   "first_s": 5.0,
+   "rel_db": -21.4,
+   "low_db": -79.8,
+   "mid_db": -47.9
+  },
+  "bus_hall": {
+   "active_s": 123.5,
+   "first_s": 0.0,
+   "rel_db": -22.3,
+   "low_db": -30.5,
+   "mid_db": -19.7
+  },
+  "tick": {
+   "active_s": 33.0,
+   "first_s": 87.0,
+   "rel_db": -23.8,
+   "low_db": -148.7,
+   "mid_db": -33.4
+  },
+  "bus_room": {
+   "active_s": 86.0,
+   "first_s": 11.0,
+   "rel_db": -28.8,
+   "low_db": -55.1,
+   "mid_db": -25.6
+  },
+  "bus_echo": {
+   "active_s": 11.5,
+   "first_s": 33.5,
+   "rel_db": -38.6,
+   "low_db": -81.3,
+   "mid_db": -28.8
+  }
+ },
+ "revision_notes": "A narrow revision of v6, which Jonathan rated 6.5 and heard as a sleeper house tune circa 1992. He asked for exactly two changes, and nothing else is touched. The rhythm, the swing, the drums, the bass and its lock with the kick, the hook's notes and rhythm, and the form are all exactly as in v6. The listening model's comments on the drums are not acted on, because Jonathan likes the beat. First, the hook was too thin, so it is thickened the way early-90s house records thickened a lead, without moving a note or an onset. Every new layer is fed from the same hook phrases, so the slides and gates are identical. Each hook guitar gets a slightly detuned unison partner, 9 to 11 cents away and 5 to 6 ms late, on its own timing seed: on the right of centre in section A, and on each guitar's own side in section B and the wall. The detune is small enough that the beating stays under 4 Hz, so no tremolo can return. Sections A and B gain a lightly driven guitar an octave up, about 13 dB under the lead. In the wall the existing fuzz already plays that part. Every hook guitar gets a light chorus. Underneath sits a new organ-like body: sustaining drawbar partials, softly saturated, band-limited to 200 Hz to 2.8 kHz and put through tape. It holds through each gate where the plucked string decays, and it sits about 10 dB under the guitar. The clean DI coda stays dry and single. The guitars were trimmed by 3 dB to make room for the layers, so the hook group measures within 0.3 dB of v6 in each section, overall and in the mid band. The unison partners skip the bar-45 stop chord, where the limiter's peaks stack. Second, the pads and the drone come up by about 3.6 dB, as Jonathan asked. The three pads get a 2 dB dip at 2.2 kHz, so they swell around the guitar's cabinet peak rather than over it. Their sound, sweeps, ring modulation and modulation checks are unchanged. The limiter's peak reduction falls slightly, from 4.7 to 4.5 dB. It stays above 3 dB because its peaks are the drum and bass transients, which Jonathan asked to leave alone."
+}

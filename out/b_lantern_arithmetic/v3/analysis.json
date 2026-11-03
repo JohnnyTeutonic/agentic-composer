@@ -1,0 +1,48 @@
+{
+ "duration_s": 156.0,
+ "audible_s": 154.96,
+ "sample_peak_dbfs": -2.88,
+ "clipped_samples": 0,
+ "crest_db": 16.85,
+ "lufs_internal": -17.0,
+ "ffmpeg": {
+  "I_lufs": -16.9,
+  "LRA_lu": 8.3,
+  "true_peak_dbtp": -2.9
+ },
+ "short_term_lufs_p10_p95": [
+  -27.3,
+  -14.2
+ ],
+ "band_share_pct": {
+  "sub": 5.1,
+  "bass": 49.8,
+  "low_mid": 39.0,
+  "mid": 5.9,
+  "presence": 0.1,
+  "air": 0.0
+ },
+ "spectral_centroid_hz": 371.0,
+ "stereo_corr": 0.582,
+ "stereo_corr_below_150": 0.955,
+ "side_to_mid_db": -5.7,
+ "tempo_est_bpm": 154.3,
+ "pulse_clarity": 5.87,
+ "selfsim_adjacent_mean": 0.457,
+ "literal_repeat_share": 0.0,
+ "section_contrast": 1.102,
+ "top_pitch_classes": [
+  "Ab",
+  "C",
+  "A",
+  "F",
+  "B"
+ ],
+ "render": {
+  "master_gain_db": 13.26,
+  "limiter_max_gr_db": -0.0,
+  "lufs_internal": -17.0,
+  "seconds": 93.3
+ },
+ "revision_notes": "The middle of the piece now departs: an A major ninth section, the flat sixth of D-flat, then an A-flat section that borrows C-flat from the minor, so C is absent from 72 to 130 seconds and returns at home as an event. Loop notes take the harmony at their midpoint and return to the original phrase at home, and at every pedal change at least two loop voices change pitch class, three where three are sounding. The loops accrete (swell 9 s, bell 21 s, ebow 40 s), the drone leaves a hole from about 94 to 104 seconds that holds only ringmodded metal strikes, breath and the clock, a low struck A-flat marks the return, the drone filter blooms through the A-flat section, and the floor leaves at 134 seconds so the glass ends alone. A four-note motif is stated at 24 seconds on a plucked string; chance then picks its fragments, inverted in the A section, the A-flat section grows it one note at a time, and an octave-lower statement at 131 seconds answers it. The Euclidean clock counts 3, 5 and 7 in 13 and is louder. The bell is now struck metal in a closer space, tape dips fall at seeded irregular times, a ringmod window colours the ebow, the glass is crushed once between 56 and 70 seconds, and two reversed swells moved mid-section. The hall return is high-passed at 220 Hz, the drone is 4 dB lower and sends far less to it, and the master presence shelf is gone in favour of brighter sources."
+}

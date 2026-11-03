@@ -1,0 +1,67 @@
+{
+ "duration_s": 141.36,
+ "audible_s": 141.36,
+ "sample_peak_dbfs": -1.5,
+ "clipped_samples": 0,
+ "crest_db": 15.25,
+ "lufs_internal": -14.05,
+ "ffmpeg": {
+  "I_lufs": -13.9,
+  "LRA_lu": 6.6,
+  "true_peak_dbtp": -1.4
+ },
+ "short_term_lufs_p10_p95": [
+  -18.9,
+  -12.3
+ ],
+ "band_share_pct": {
+  "sub": 4.2,
+  "bass": 45.9,
+  "low_mid": 28.0,
+  "mid": 20.8,
+  "presence": 1.0,
+  "air": 0.0
+ },
+ "spectral_centroid_hz": 667.0,
+ "stereo_corr": 0.745,
+ "stereo_corr_below_150": 0.973,
+ "side_to_mid_db": -8.3,
+ "tempo_est_bpm": 88.3,
+ "pulse_clarity": 7.53,
+ "onset_grid": [
+  0.122,
+  0.023,
+  0.024,
+  0.072,
+  0.082,
+  0.038,
+  0.075,
+  0.021,
+  0.2,
+  0.023,
+  0.086,
+  0.044,
+  0.068,
+  0.036,
+  0.059,
+  0.028
+ ],
+ "offbeat_onset_share": 0.529,
+ "selfsim_adjacent_mean": 0.6,
+ "literal_repeat_share": 0.019,
+ "section_contrast": 0.997,
+ "top_pitch_classes": [
+  "E",
+  "A",
+  "D",
+  "C",
+  "Bb"
+ ],
+ "render": {
+  "master_gain_db": 8.16,
+  "limiter_max_gr_db": 3.25,
+  "lufs_internal": -14.05,
+  "seconds": 121.7
+ },
+ "revision_notes": "Space 1 opens up: the pad rests, leaving the bass, metal and echo tails, with a high pipe answer each bar. Wood +3.5 dB, pipe +3 dB, plate +2 dB, kick -1 dB, presence shelf, lows truly mono."
+}

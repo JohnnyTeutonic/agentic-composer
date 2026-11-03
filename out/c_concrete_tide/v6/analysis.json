@@ -1,0 +1,314 @@
+{
+ "duration_s": 133.91,
+ "audible_s": 130.94,
+ "sample_peak_dbfs": -1.51,
+ "clipped_samples": 0,
+ "crest_db": 16.52,
+ "lufs_internal": -14.23,
+ "ffmpeg": {
+  "I_lufs": -14.1,
+  "LRA_lu": 14.7,
+  "true_peak_dbtp": -1.5
+ },
+ "short_term_lufs_p10_p95": [
+  -27.2,
+  -12.5
+ ],
+ "band_share_pct": {
+  "sub": 16.5,
+  "bass": 38.3,
+  "low_mid": 18.5,
+  "mid": 21.6,
+  "presence": 4.6,
+  "air": 0.5
+ },
+ "spectral_centroid_hz": 967.0,
+ "stereo_corr": 0.748,
+ "stereo_corr_below_150": 0.998,
+ "side_to_mid_db": -8.4,
+ "tempo_est_bpm": 175.2,
+ "pulse_clarity": 8.95,
+ "onset_grid": [
+  0.066,
+  0.029,
+  0.084,
+  0.036,
+  0.143,
+  0.024,
+  0.062,
+  0.038,
+  0.078,
+  0.057,
+  0.061,
+  0.063,
+  0.105,
+  0.062,
+  0.055,
+  0.036
+ ],
+ "offbeat_onset_share": 0.608,
+ "selfsim_adjacent_mean": 0.527,
+ "literal_repeat_share": 0.04,
+ "section_contrast": 0.934,
+ "top_pitch_classes": [
+  "E",
+  "B",
+  "F#",
+  "A",
+  "D"
+ ],
+ "render": {
+  "master_gain_db": 2.33,
+  "limiter_max_gr_db": 4.67,
+  "lufs_internal": -14.23,
+  "seconds": 102.4
+ },
+ "stem_levels": {
+  "bass": {
+   "active_s": 113.0,
+   "first_s": 0.0,
+   "rel_db": -3.4,
+   "low_db": -1.1,
+   "mid_db": -13.9
+  },
+  "gtr_c": {
+   "active_s": 22.0,
+   "first_s": 11.0,
+   "rel_db": -3.4,
+   "low_db": -41.8,
+   "mid_db": -0.5
+  },
+  "gtr_fb": {
+   "active_s": 6.5,
+   "first_s": 0.0,
+   "rel_db": -5.3,
+   "low_db": -64.1,
+   "mid_db": 0.4
+  },
+  "keys": {
+   "active_s": 10.5,
+   "first_s": 66.0,
+   "rel_db": -6.3,
+   "low_db": -55.6,
+   "mid_db": -1.7
+  },
+  "gtr_r": {
+   "active_s": 57.0,
+   "first_s": 43.5,
+   "rel_db": -7.8,
+   "low_db": -41.2,
+   "mid_db": -5.0
+  },
+  "gtr_l": {
+   "active_s": 57.0,
+   "first_s": 43.5,
+   "rel_db": -7.9,
+   "low_db": -43.6,
+   "mid_db": -5.0
+  },
+  "kick": {
+   "active_s": 75.0,
+   "first_s": 5.0,
+   "rel_db": -8.3,
+   "low_db": -4.2,
+   "mid_db": -21.3
+  },
+  "gtr_fb2": {
+   "active_s": 11.0,
+   "first_s": 109.0,
+   "rel_db": -9.3,
+   "low_db": -55.4,
+   "mid_db": -6.7
+  },
+  "gtr_rev": {
+   "active_s": 9.5,
+   "first_s": 8.0,
+   "rel_db": -10.6,
+   "low_db": -42.7,
+   "mid_db": -3.2
+  },
+  "gtr_di": {
+   "active_s": 8.0,
+   "first_s": 123.0,
+   "rel_db": -10.6,
+   "low_db": -43.5,
+   "mid_db": -0.1
+  },
+  "toms": {
+   "active_s": 6.0,
+   "first_s": 64.0,
+   "rel_db": -11.2,
+   "low_db": -9.6,
+   "mid_db": -20.6
+  },
+  "snare": {
+   "active_s": 49.0,
+   "first_s": 11.5,
+   "rel_db": -11.8,
+   "low_db": -17.1,
+   "mid_db": -14.1
+  },
+  "gtr_4th": {
+   "active_s": 11.0,
+   "first_s": 109.0,
+   "rel_db": -11.8,
+   "low_db": -39.3,
+   "mid_db": -9.7
+  },
+  "gtr_echo": {
+   "active_s": 3.0,
+   "first_s": 33.0,
+   "rel_db": -13.0,
+   "low_db": -57.9,
+   "mid_db": -3.2
+  },
+  "fuzz": {
+   "active_s": 35.5,
+   "first_s": 87.5,
+   "rel_db": -13.1,
+   "low_db": -64.2,
+   "mid_db": -10.1
+  },
+  "rev_snare": {
+   "active_s": 2.0,
+   "first_s": 42.0,
+   "rel_db": -13.2,
+   "low_db": -28.0,
+   "mid_db": -9.0
+  },
+  "grit": {
+   "active_s": 55.5,
+   "first_s": 43.5,
+   "rel_db": -13.6,
+   "low_db": -19.2,
+   "mid_db": -13.1
+  },
+  "heart": {
+   "active_s": 5.0,
+   "first_s": 32.5,
+   "rel_db": -14.7,
+   "low_db": -12.5,
+   "mid_db": -27.8
+  },
+  "pad_bridge": {
+   "active_s": 22.5,
+   "first_s": 65.0,
+   "rel_db": -15.7,
+   "low_db": -23.6,
+   "mid_db": -10.9
+  },
+  "noise_hit": {
+   "active_s": 5.0,
+   "first_s": 87.0,
+   "rel_db": -16.4,
+   "low_db": -63.9,
+   "mid_db": -18.0
+  },
+  "snare_noise": {
+   "active_s": 38.0,
+   "first_s": 11.5,
+   "rel_db": -17.0,
+   "low_db": -63.3,
+   "mid_db": -17.5
+  },
+  "pad_wide": {
+   "active_s": 56.5,
+   "first_s": 43.5,
+   "rel_db": -17.3,
+   "low_db": -21.7,
+   "mid_db": -16.8
+  },
+  "kit_crush": {
+   "active_s": 33.0,
+   "first_s": 87.0,
+   "rel_db": -17.4,
+   "low_db": -14.8,
+   "mid_db": -22.0
+  },
+  "bed": {
+   "active_s": 90.5,
+   "first_s": 0.0,
+   "rel_db": -17.5,
+   "low_db": -50.4,
+   "mid_db": -16.8
+  },
+  "pad": {
+   "active_s": 35.5,
+   "first_s": 10.5,
+   "rel_db": -18.8,
+   "low_db": -30.2,
+   "mid_db": -16.2
+  },
+  "clap": {
+   "active_s": 15.5,
+   "first_s": 87.5,
+   "rel_db": -18.9,
+   "low_db": -47.4,
+   "mid_db": -16.7
+  },
+  "strings": {
+   "active_s": 33.0,
+   "first_s": 87.0,
+   "rel_db": -19.4,
+   "low_db": -69.9,
+   "mid_db": -16.4
+  },
+  "drone": {
+   "active_s": 83.0,
+   "first_s": 10.5,
+   "rel_db": -19.4,
+   "low_db": -19.4,
+   "mid_db": -20.4
+  },
+  "snare_sheet": {
+   "active_s": 49.5,
+   "first_s": 11.5,
+   "rel_db": -19.8,
+   "low_db": -34.2,
+   "mid_db": -21.5
+  },
+  "anvil": {
+   "active_s": 4.5,
+   "first_s": 44.5,
+   "rel_db": -20.9,
+   "low_db": -141.2,
+   "mid_db": -22.9
+  },
+  "hat": {
+   "active_s": 93.0,
+   "first_s": 5.0,
+   "rel_db": -21.2,
+   "low_db": -79.7,
+   "mid_db": -47.7
+  },
+  "tick": {
+   "active_s": 33.0,
+   "first_s": 87.0,
+   "rel_db": -23.6,
+   "low_db": -148.6,
+   "mid_db": -33.4
+  },
+  "bus_hall": {
+   "active_s": 124.0,
+   "first_s": 0.0,
+   "rel_db": -23.6,
+   "low_db": -33.1,
+   "mid_db": -20.5
+  },
+  "bus_room": {
+   "active_s": 85.5,
+   "first_s": 11.0,
+   "rel_db": -28.3,
+   "low_db": -55.6,
+   "mid_db": -25.1
+  },
+  "bus_echo": {
+   "active_s": 11.5,
+   "first_s": 33.5,
+   "rel_db": -38.1,
+   "low_db": -80.7,
+   "mid_db": -28.2
+  }
+ },
+ "revision_notes": "A new piece built from scratch, after a guest rater and Jonathan rejected v5 as generic, short of bass and weak in the beat. Nothing from v1 to v5 is reused apart from the sound-building code. It stays at 88 BPM but moves to E. The hook is a one-bar call and a one-bar answer on distorted guitar. It rises B, E, G, steps down, then drops to B as a question or settles on E as an answer. Its signature is a D-to-E slide that lands with the snare on beat two. Every guitar onset falls in a gap of the bass line, so the two interlock. The guitar is a new sliding string voice through the asymmetric amp, with a clean DI copy 10 dB under it so the pitch reads through the dirt. The riff is re-orchestrated, never replaced. It is played by one guitar left of centre in section A and by the slide alone through a dotted-eighth echo in the first space. Section B double-tracks it hard left and right. In the bridge a quiet, detuned keyboard plays it at half speed. The wall double-tracks it with a fuzz an octave up, and in its last four bars a third guitar adds fourths below. At the end the clean DI plays it alone, dry. The bass is a new saw-and-square synth bass at E1, with a filter envelope, a drive stage and a separate sub sine. It plays an accented sixteenth-note cell of eight onsets that changes only by subtraction: the ghost leaves every fourth bar, and a pitch dive leads into each section. It ducks 5 dB under a kick tuned to A1, and every kick lands on a bass note, so the two hit as one punch. A fuzzed copy of the bass is added in section B and the wall. The beat is a real backbeat on two and four. The snare has three layers: a dropped-pitch body, a 3-5 kHz noise crack and a metal sheet tuned to B flat, the tritone over E. Closed hats run in sixteenths with the eighths accented, and each section has its own kick map. The wall adds a clap, a metal tick every three sixteenths, noise bursts in place of crashes and a crushed parallel drum copy. The form runs: a feedback intro, the groove, section A, a near-empty space, a wider section B, then a bridge with no bass or drums. A four-on-the-floor build with a snare roll follows, then half a bar of silence. Next comes a wall where everything plays at once, then a hard stop, the clean riff alone and a tape stop. For texture there are a lush detuned pad on a slow filter sweep, a bit-crushed static bed, a rust drone on tape that is ring-modulated in the wall, high strings, reversed guitar swells, and a 50-cent tape sag in the bridge. The guitar now leads the mix: the bass is low-passed at 1.2 kHz, the grit is dipped at 2.2 kHz, and the textures are set to be heard. No sustained layer ducks, tape flutter stays at 0.04 or below, and each sustained stem must pass a 4-20 Hz modulation check, so the stuttering tremolo of v5 cannot return. That check caught the engine pad itself: its evenly spaced, in-phase detuned voices beat at a single rate, a wobble of about 2 dB on held notes. So the pads, strings and drone use a new ensemble voice with irregular detune, random start phases and a separate drift for each voice, which shimmers without pulsing. The B-flat ring modulation of the drone in the wall is the one deliberate exception: its sidebands rasp against E and B by design, so the drone is checked before it. The first full draft measured the sub at half of all the energy and the limiter at 6 dB, with the hats, tick and anvil inaudible. So the bass's sub sine now sits 6 dB under its oscillators and a 7 dB low shelf sits below 90 Hz, keeping the growl and losing the boom. The kick comes down 5 dB and the grit up 10 dB, and the pads and drone come down 5 to 7 dB, so they sit well under the guitars. The high percussion and the snare layers come up into hearing. The quiet sections (intro, space, bridge and coda) come down 5 to 11 dB, so that once the low end stops taking the loudness, they stay quiet against the wall. The second draft still had the limiter at 5.8 dB, because the drum layers, the bass and the stop chord all peak on the same instants. So the kick and snare transients are shaved harder, and the toms come down 4 dB and leave the crushed copy. The bar-45 power chord is picked softer, and the wall's feedback guitar drops 5 dB under the hook doubles, which it had been covering."
+}

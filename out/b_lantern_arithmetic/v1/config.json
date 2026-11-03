@@ -1,0 +1,544 @@
+{
+ "title": "Lantern Arithmetic",
+ "slug": "b_lantern_arithmetic",
+ "bpm": 76,
+ "rev": 1,
+ "seed": 2207,
+ "length_s": 150.0,
+ "sections": [
+  [
+   "Db",
+   0,
+   38
+  ],
+  [
+   "Gb lydian",
+   38,
+   72
+  ],
+  [
+   "Bb",
+   72,
+   104
+  ],
+  [
+   "Ab",
+   104,
+   130
+  ],
+  [
+   "Db home",
+   130,
+   150.0
+  ]
+ ],
+ "buses": {
+  "hall": {
+   "type": "reverb",
+   "ir": {
+    "decay": 6.5,
+    "predelay": 0.04,
+    "tone": 5000,
+    "size": 2.0
+   },
+   "return_db": -3
+  },
+  "echo": {
+   "type": "echo",
+   "echo": {
+    "time_s": 1.1842105263157894,
+    "feedback": 0.55,
+    "repeats": 7,
+    "tone": 2800,
+    "spread": 0.7,
+    "wow": 1.5,
+    "sat": 0.3
+   },
+   "return_db": -6
+  }
+ },
+ "master": {
+  "target_lufs": -17.0,
+  "ceiling": -1.5,
+  "tail": 6.0,
+  "eq": [
+   [
+    "hp",
+    30,
+    0.7
+   ]
+  ],
+  "tape": {
+   "drive": 0.5,
+   "wow": 0.15,
+   "flutter": 0.08,
+   "hiss_db": -74,
+   "hf": 12500,
+   "bump_db": 1.5
+  },
+  "fade_out": [
+   148.0,
+   155.5
+  ]
+ },
+ "meta": {
+  "bar_starts": null
+ },
+ "tracks": [
+  {
+   "name": "drone",
+   "voice": "pad",
+   "patch": {
+    "a": 5.0,
+    "d": 2.0,
+    "s": 0.9,
+    "r": 6.0,
+    "voices": 3,
+    "spread": 0.08,
+    "cutoff": 320,
+    "move_oct": 0.8,
+    "move_rate": 0.06,
+    "q": 1.4,
+    "drift_cents": 4
+   },
+   "gain_db": -7.0,
+   "pan": 0.0,
+   "stereo": {
+    "chorus": {
+     "depth_ms": 3.0,
+     "rate": 0.1,
+     "mix": 0.5
+    }
+   },
+   "sends": {
+    "hall": 0.3
+   },
+   "inserts": [],
+   "auto": null,
+   "duck": null,
+   "channel": 0,
+   "program": 89,
+   "n_notes": 10
+  },
+  {
+   "name": "glass",
+   "voice": "fm",
+   "patch": {
+    "ratio": 3.0,
+    "index": 1.2,
+    "idecay": 0.6,
+    "a": 0.01,
+    "d": 2.5,
+    "s": 0.0,
+    "r": 1.5,
+    "index_floor": 0.05,
+    "body": 0.2
+   },
+   "gain_db": -12.0,
+   "pan": -0.45,
+   "stereo": null,
+   "sends": {
+    "hall": 0.5,
+    "echo": 0.3
+   },
+   "inserts": [
+    [
+     "varispeed",
+     {
+      "points": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        58.0,
+        0.0
+       ],
+       [
+        59.5,
+        -45.0
+       ],
+       [
+        61.5,
+        0.0
+       ],
+       [
+        115.0,
+        0.0
+       ],
+       [
+        116.0,
+        -30.0
+       ],
+       [
+        118.5,
+        10.0
+       ],
+       [
+        120.0,
+        0.0
+       ],
+       [
+        160.0,
+        0.0
+       ]
+      ]
+     }
+    ]
+   ],
+   "auto": null,
+   "duck": null,
+   "channel": 0,
+   "program": 14,
+   "n_notes": 30
+  },
+  {
+   "name": "swell",
+   "voice": "pad",
+   "patch": {
+    "a": 2.8,
+    "d": 2.0,
+    "s": 0.8,
+    "r": 3.0,
+    "voices": 4,
+    "spread": 0.1,
+    "cutoff": 1400,
+    "move_oct": 1.0,
+    "move_rate": 0.2,
+    "formant": "u",
+    "formant_morph": 0.8
+   },
+   "gain_db": -12.0,
+   "pan": 0.0,
+   "stereo": {
+    "chorus": {
+     "depth_ms": 5.0,
+     "rate": 0.15,
+     "mix": 0.7
+    }
+   },
+   "sends": {
+    "hall": 0.5
+   },
+   "inserts": [
+    [
+     "varispeed",
+     {
+      "points": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        58.0,
+        0.0
+       ],
+       [
+        59.5,
+        -45.0
+       ],
+       [
+        61.5,
+        0.0
+       ],
+       [
+        115.0,
+        0.0
+       ],
+       [
+        116.0,
+        -30.0
+       ],
+       [
+        118.5,
+        10.0
+       ],
+       [
+        120.0,
+        0.0
+       ],
+       [
+        160.0,
+        0.0
+       ]
+      ]
+     }
+    ]
+   ],
+   "auto": null,
+   "duck": null,
+   "channel": 0,
+   "program": 91,
+   "n_notes": 8
+  },
+  {
+   "name": "bell",
+   "voice": "fm",
+   "patch": {
+    "ratio": 3.5,
+    "index": 2.5,
+    "idecay": 0.9,
+    "a": 0.002,
+    "d": 3.0,
+    "s": 0.0,
+    "r": 2.0,
+    "index_floor": 0.1
+   },
+   "gain_db": -14.0,
+   "pan": 0.4,
+   "stereo": null,
+   "sends": {
+    "hall": 0.55,
+    "echo": 0.25
+   },
+   "inserts": [
+    [
+     "varispeed",
+     {
+      "points": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        58.0,
+        0.0
+       ],
+       [
+        59.5,
+        -45.0
+       ],
+       [
+        61.5,
+        0.0
+       ],
+       [
+        115.0,
+        0.0
+       ],
+       [
+        116.0,
+        -30.0
+       ],
+       [
+        118.5,
+        10.0
+       ],
+       [
+        120.0,
+        0.0
+       ],
+       [
+        160.0,
+        0.0
+       ]
+      ]
+     }
+    ],
+    [
+     "ringmod",
+     {
+      "freq": 311.0,
+      "mix_points": [
+       [
+        0,
+        0
+       ],
+       [
+        76,
+        0
+       ],
+       [
+        80,
+        0.35
+       ],
+       [
+        96,
+        0.35
+       ],
+       [
+        102,
+        0
+       ],
+       [
+        160.0,
+        0
+       ]
+      ]
+     }
+    ]
+   ],
+   "auto": null,
+   "duck": null,
+   "channel": 0,
+   "program": 10,
+   "n_notes": 18
+  },
+  {
+   "name": "ebow",
+   "voice": "lead",
+   "patch": {
+    "saw": 0.4,
+    "sq": 0.3,
+    "fmix": 0.3,
+    "ratio": 2.0,
+    "index": 0.8,
+    "a": 1.2,
+    "s": 0.9,
+    "r": 1.8,
+    "cutoff": 1500,
+    "q": 0.9,
+    "vib": 0.1,
+    "vib_delay": 1.5,
+    "vib_rate": 4.6,
+    "move": 0.5
+   },
+   "gain_db": -15.0,
+   "pan": 0.15,
+   "stereo": null,
+   "sends": {
+    "hall": 0.45,
+    "echo": 0.4
+   },
+   "inserts": [
+    [
+     "varispeed",
+     {
+      "points": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        58.0,
+        0.0
+       ],
+       [
+        59.5,
+        -45.0
+       ],
+       [
+        61.5,
+        0.0
+       ],
+       [
+        115.0,
+        0.0
+       ],
+       [
+        116.0,
+        -30.0
+       ],
+       [
+        118.5,
+        10.0
+       ],
+       [
+        120.0,
+        0.0
+       ],
+       [
+        160.0,
+        0.0
+       ]
+      ]
+     }
+    ],
+    [
+     "tape",
+     {
+      "drive": 1.5,
+      "wow": 0.8,
+      "flutter": 0.3,
+      "hf": 6000
+     }
+    ]
+   ],
+   "auto": null,
+   "duck": null,
+   "channel": 0,
+   "program": 82,
+   "n_notes": 10
+  },
+  {
+   "name": "events",
+   "voice": "fm",
+   "patch": {
+    "ratio": 1.4,
+    "index": 2.0,
+    "idecay": 0.5,
+    "a": 0.003,
+    "d": 2.2,
+    "s": 0.0,
+    "r": 1.6,
+    "index_floor": 0.08
+   },
+   "gain_db": -13.0,
+   "pan": -0.1,
+   "stereo": {
+    "haas": 9
+   },
+   "sends": {
+    "hall": 0.4,
+    "echo": 0.5
+   },
+   "inserts": [],
+   "auto": null,
+   "duck": null,
+   "channel": 0,
+   "program": 8,
+   "n_notes": 31
+  },
+  {
+   "name": "air",
+   "voice": "breath",
+   "patch": {
+    "a": 4.0,
+    "r": 5.0,
+    "q": 5.0,
+    "wander_oct": 1.2,
+    "wander_rate": 0.15
+   },
+   "gain_db": -22.0,
+   "pan": 0.0,
+   "stereo": {
+    "chorus": {
+     "depth_ms": 8.0,
+     "rate": 0.07,
+     "mix": 0.8
+    }
+   },
+   "sends": {
+    "hall": 0.4
+   },
+   "inserts": [],
+   "auto": null,
+   "duck": null,
+   "channel": 0,
+   "program": 122,
+   "n_notes": 2
+  },
+  {
+   "name": "pulse",
+   "voice": "drums",
+   "patch": {
+    "block_lo": {},
+    "rim": {
+     "f": 1500
+    }
+   },
+   "gain_db": -20.0,
+   "pan": 0.25,
+   "stereo": null,
+   "sends": {
+    "hall": 0.35
+   },
+   "inserts": [],
+   "auto": null,
+   "duck": null,
+   "channel": 0,
+   "program": 0,
+   "n_notes": 43
+  }
+ ]
+}
